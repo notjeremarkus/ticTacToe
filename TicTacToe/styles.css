@@ -1,0 +1,54 @@
+/* Styles */
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body {
+    font-family: 'Dongle', sans-serif;
+    background-color: aquamarine;
+}
+
+header {
+    min-height: 20vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+h1 {
+    margin: 1rem;
+}
+
+.reset-button {
+    border: 1px black solid;
+    border-radius: 2px;
+    background-color: white;
+    padding: 0.5rem;
+}
+
+.game-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.game-board {
+    display: grid;
+    grid-template-columns: 33% 33% 33%;
+    grid-template-rows: 33% 33% 33%;
+    max-width: 300px;
+}
+
+.square {
+    min-width: 100px;
+    min-height: 100px;
+    padding: auto auto;
+    font-size: 60px;
+    border: 2px solid black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
